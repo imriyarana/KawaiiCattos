@@ -1,46 +1,52 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-image: url('Assests/cute kitty.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: url('Assests/♡\ mii\ ♡.gif');
 }
 
-h1{
-   display: inline;
-justify-content: flex-start;
-position: relative;
-bottom: 330px;
-font-size: xx-large;
+h1 {
+    font-size: 2.5rem;
+    color:  #c03d67;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
-#result{
-position: fixed;
-bottom: 560px;
-font-size: x-large;
-text-align: center;
-}
-
-button{
-position: fixed;
-text-align: center;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-bottom: 58%;
-background: url('Assests/kittie\'s\ paw.jpeg');
-background-size: cover;
-background-repeat: no-repeat;
-font-weight: 700;
-}
-
-#button:hover{
+#button {
+    background-color: #F7B5CA;
+    border: none;
+    color: #c03d67;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 10px 5px 5px rgb(242, 219, 191);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+#button:hover {
+    background-color: #F7B5CA;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #F7B5CA;
+    color:  #c03d67;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.aesthetic-gif {
+    margin-top: 20px;
+    text-align: center;
+  }

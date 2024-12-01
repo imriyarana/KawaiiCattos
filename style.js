@@ -17,5 +17,4 @@ async function getFacts(){
         console.log("error-",err);
         return  "NO FACT FOUND";
     }
-
 }
